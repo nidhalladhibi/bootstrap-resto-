@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bites Menu</title>
+
+    <!-- Bootstrap 5.0 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<style>
+    body {
+        margin-top: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #e6e4d9;
+        background-image: url(..);
+    }
+</style>
+
+<body>
+
+    <!-- Barre de navigation -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Restaurant Delicious Bites</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#localisation">À propos de nous</a></li>
+                    <li class="nav-item"><a class="nav-link" href=#contact>contact</a></li>
+                </ul>
+                <!-- Formulaire de recherche -->
+                <form class="d-flex ms-auto" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Héros -->
+    <section class="hero"
+        style="background-image: url('your-image-url.jpg'); height: 200px; background-size: cover; background-position: center;">
+        <div class="d-flex h-100 justify-content-center align-items-center text-center">
+            <div>
+                <h1 class="text-white">Bienvenue à Delicious Bites</h1>
+                <a href="#menu" class="btn btn-primary">Voir le Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Menu (utilisation du système de grille Bootstrap) -->
+    <section id="menu">
+        <div class="container">
+            <h2 class="text-center mb-4">Notre Menu</h2>
+            <!-- Carte 1 -->
+            <div class="row mt-4">
+                <div class="col">
+                    <img src="Salade_Caprese.jpg" class="card-img-top img-fluid fixed_img" alt="Salade Caprese">
+                    <div class="card-body">
+                        <h5 class="card-title">Salade Caprese</h5>
+                        <p class="card-text">Tomates fraîches, mozzarella et basilic.</p>
+                        <p class="card-text"><strong>10,00 €</strong></p>
+                    </div>
+
+                </div>
+
+
+                <!-- Carte 2 -->
+
+                <div class="col">
+                    <img src="Bœuf Bourguignon.jpg" class="card-img-top img-fluid fixed_img" alt="Bœuf Bourguignon">
+                    <div class="card-body">
+                        <h5 class="card-title">Bœuf Bourguignon</h5>
+                        <p class="card-text">Ragoût de bœuf mijoté au vin rouge.</p>
+                        <p class="card-text"><strong>15,00 €</strong></p>
+                    </div>
+                </div>
+
+
+                <!-- Carte 3 -->
+
+                <div class="col">
+                    <img src="Poulet au Citron.jpg" class="card-img-top img-fluid fixed_img" alt="Poulet au Citron">
+                    <div class="card-body">
+                        <h5 class="card-title">Poulet au Citron</h5>
+                        <p class="card-text">Blanc de poulet mariné et rôti.</p>
+                        <p class="card-text"><strong>12,00 €</strong></p>
+                    </div>
+                </div>
+
+
+
+                <!-- Carte 4 -->
+                <div class="row mt-4">
+                    <div class="col">
+                        <img src="L’antipasto (entrée ou hors-d’œuvre).jpg" class="card-img-top img-fluid fixed_img"
+                            alt="Antipasto">
+                        <div class="card-body">
+                            <h5 class="card-title">L’antipasto</h5>
+                            <p class="card-text">Entrée ou hors-d’œuvre italien traditionnel.</p>
+                            <p class="card-text"><strong>12,00 €</strong></p>
+                        </div>
+                    </div>
+
+
+                    <!-- Carte 5 -->
+
+                    <div class="col">
+                        <img src="La pizza napolitaine.jpg" class="card-img-top img-fluid fixed_img"
+                            alt="Pizza Napolitaine">
+
+                        <h5 class="card-title">Pizza Napolitaine</h5>
+                        <p class="card-text">Pizza italienne traditionnelle.</p>
+                        <p class="card-text"><strong>12,00 €</strong></p>
+
+                    </div>
+
+
+                    <!-- Carte 6 -->
+
+                    <div class="col">
+                        <img src="Spaghettis-a-la-napolitaine.jpg" class="card-img-top img-fluid fixed_img"
+                            alt="Spaghettis-a-la-napolitaine">
+
+                        <h5 class="card-title">Spaghettis à la Napolitaine</h5>
+                        <p class="card-text">Spaghettis avec sauce tomate italienne traditionnelle.</p>
+                        <p class="card-text"><strong>12,00 €</strong></p>
+
+                    </div>
+                </div>
+
+    </section>
+    <style>
+        body {
+            margin-top: 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #e6e4d9;
+            background-image: url(..);
+        }
+    </style>
+    
+
+
+    <!-- Localisation Section -->
+    </style>
+    <section id="localisation" class="py-5 bg-light"> 
+        <div class="container"> 
+            <div  class="row">
+                <div class="col-md-12 text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                        class="bi bi-geo-alt" viewBox="0 0 16 16">
+                        <path
+                            d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                    </svg>
+                    <!-- Google Maps Embed -->
+                    <div class="map-responsive mb-4">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345094265!2d144.9537363154064!3d-37.81720974202117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf0727ed9b1a2763e!2sFlinders%20Street%20Station!5e0!3m2!1sen!2sfr!4v1618317950171!5m2!1sen!2sfr"
+                            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+
+
+                    <!-- Photo of Restaurant -->
+                    <div>
+                        <img src="photo resto  Delicious Bites.webp" class="photo Restaurant" width="100%" height="500">
+                    </div>
+                  
+                    <!-- Footer Section -->
+                    <footer class="bg-dark text-white py-4">
+                        <div class="container">
+                            <div class="row">
+                                <!-- Other Footer Columns (if any) -->
+
+                                <!-- Réclamation Section -->
+                                <div class="card-text">
+                                    <h5>Réclamation</h5>
+                                    <p>Si vous avez des questions ou des réclamations, n'hésitez pas à nous contacter à
+                                        l'adresse suivante :</p>
+                                    <p>
+                                        <a href="mailto:reclamation@deliciousbites.com"
+                                            class="text-white">reclamation@deliciousbites.com</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <section id="contact" class="contact">
+
+                                <form action="submit-form.php" method="POST">
+                                    <table>
+                                        <tr>
+                                            <td><label for="name">Nom :</label></td>
+                                            <td><input type="text" id="name" name="name" required></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label for="email">Email :</label></td>
+                                            <td><input type="email" id="email" name="email" required></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label for="message">Message :</label></td>
+                                            <td><textarea id="message" name="message" required></textarea></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2"><button type="submit">Envoyer</button></td>
+                                        </tr>
+                                    </table>
+                                </form>
+                            </section>
+
+                            <!-- Footer Bottom -->
+                            <div class="row">
+                                <div class="col text-center">
+                                    <p class="mb-0">&copy; 2024 Delicious Bites. Tous droits réservés.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+
+
+                </div>
+        </div>
+    </section>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
